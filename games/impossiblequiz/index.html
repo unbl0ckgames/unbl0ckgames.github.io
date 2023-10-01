@@ -6,9 +6,16 @@
     </head>
     <body>
         <div style="margin:0 auto;text-align:center">
-            <embed src="impossiblequiz.swf" width="900" height="800"></embed>
+            <embed src="impossiblequiz.swf" width="900" height="800" id="gamef"></embed>
             <div style="margin-left:auto;margin-right:auto;text-align:center">
           </div>
         </div>
+        <script>
+            window.addEventListener("resize", (event) => {
+                var gamecanvas = document.getElementById('gamef')
+                gamecanvas.height = window.innerHeight;
+                gamecanvas.width = window.innerWidth;
+            });
+        </script>
     </body>
 </html>
