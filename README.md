@@ -1,3 +1,3 @@
-# GAMES: SM64
+# GAMES
 
-This is a SM64 port to js
+Most of these games are from unbl0ck.github.io
