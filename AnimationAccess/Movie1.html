@@ -4,7 +4,7 @@
     <title>Movie Early Access</title>
   </head>
 <body>
-  <h1>{PLACEHOLDER} (Early Access)</h1>
+  <h1>Godzilla Movie (Early Access)</h1>
   <input type="text" id="pass">
   <button onclick="clicks()">Submit</button>
   <div id="Question2" hidden>
@@ -25,7 +25,10 @@
         if (output>=number) {
           output=number
           return output
+        }else {
+          return number;
         }
+        
       }
         
     }
@@ -46,7 +49,7 @@
       var bacupencoded = NumberEncode(90-29+1-1)
       var inputbox1 = document.getElementById('pass2').value;
       if (inputbox1==passstart+bacupencoded) {
-        window.location.replace("javascript:alert('PLACEHOLDER SITE ERROR')")
+        window.location.replace("javascript:alert('SITE ERROR')")
       } else {
         document.write("<h1 style='color: red;'>Password error")
       }
