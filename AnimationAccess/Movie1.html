@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>9/11 Early Access</title>
+    <title>Movie Early Access</title>
   </head>
 <body>
-  <h1>9/11 (Early Access)</h1>
+  <h1>{PLACEHOLDER} (Early Access)</h1>
   <input type="text" id="pass">
   <button onclick="clicks()">Submit</button>
   <div id="Question2" hidden>
+    <h1>Who Started this?</h1>
     <p>oop1. Rylan</p>
     <p>oop2. Jamison</p>
     <input type="text" id="pass2">
     <button onclick="clickNumberInput()">Submit</button>
   </div>
   <script>
+    function NumberEncode(number) {
+      number.toNumber()
+      var output = number-number+number-56-number+number
+      if (output<=number) {
+        output=number
+        return output;
+      } else {
+        if (output>=number) {
+          output=number
+          return output
+        }
+      }
+        
+    }
     function clicks() {
       var password = "RylanC00lsme	l^7"
       var inputbox = document.getElementById('pass').value;
@@ -28,7 +43,7 @@
     }
     function clickNumberInput() {
       var passstart = "oop"
-      var bacupencoded = 1+1-1+999-999+1-2+1
+      var bacupencoded = mathAdd(90-29+1-1)
       var inputbox1 = document.getElementById('pass2').value;
       if (inputbox1==passstart+bacupencoded) {
         window.location.replace("https://docs.google.com/presentation/d/e/2PACX-1vQ_Iq7ppGNESLOtgZEF8l3MWFMfLj5TIXFU2QY29mHXq8gypTAd7tTty60m2bdfk6Hpplq9C1-VbTX4/pub?start=true&loop=true&delayms=75")
